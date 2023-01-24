@@ -24,6 +24,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 3%;
   }
   .nav-branding img{
     width: 200px;
@@ -39,14 +40,14 @@ a{
     transition: 0.3s ease-out;
   }
   .nav-link:hover{
-    color: rgb(66, 43, 66);
+    color: #d2c4ff;
   }
   .navbar li{
     font-size: 1.5rem;
   }
 
   .hello{
-    border: 1px solid rgb(66, 43, 66);
+    border: 1px solid #d2c4ff;
     border-radius: 8px;
     height: 40px;
     width: 110px;
@@ -126,7 +127,7 @@ a{
 }
 
 main{
-  padding-top: 5%;
+  padding: 4.5% 0;
   background-color: rgb(17, 15, 15);
 }
 
@@ -140,7 +141,6 @@ main{
   .first-img{
     text-align: center;
     padding-bottom: 3%;
-    /* background-color: #efefef; */
   }
   .intro{
     width: 90%;
@@ -162,10 +162,8 @@ main{
   }
 
   .boards{
-    width: 95%;
     margin: auto;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
+    display: flex;
   }
 
   .board{
@@ -203,8 +201,22 @@ main{
     color: #d2c4ff;
   }
 
-  @media screen and(min-width:768px){
+  @media screen and (max-width: 768px){
     .boards{
-      display: flex;
+      display: block;
     }
+  }
+
+  /* Works */
+
+  .works{
+    margin: 3% 0;
+  }
+
+  .work-text .title, .work-text .text{
+    color: rgb(17, 15, 15);
+  }
+
+  .work-text a{
+    color: blue;
   }
