@@ -256,6 +256,18 @@ main{
   @media screen and (max-width: 768px){
     .work-pic{
       display: block;
+      text-align: center;
+    }
+
+    .pics{
+      width: 350px;
+      height: 370px;
+      margin: auto;
+      margin-top: 2%;
+    }
+
+    .pics img{
+      width: 250px;
     }
   }
 
@@ -371,6 +383,12 @@ main{
 
   @media screen and (max-width: 768px){
     .footer-text{
-      width: 75%;
+      width: 95%;
+      display: block;
+      text-align: center;
+    }
+
+    button{
+      margin-top: 2%;
     }
   }
